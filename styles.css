@@ -212,6 +212,22 @@ body {
     transform: translateY(-2px);
 }
 
+.btn-cv {
+    background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
+    color: white;
+    border: 2px solid transparent;
+}
+
+.btn-cv:hover {
+    background: linear-gradient(135deg, #2d3748 0%, #1a365d 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(26, 54, 93, 0.3);
+}
+
+.btn-cv i {
+    margin-right: 8px;
+}
+
 .hero-image {
     display: flex;
     justify-content: center;
